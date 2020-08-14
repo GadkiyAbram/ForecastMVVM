@@ -6,5 +6,5 @@ data class ImperialCurrentWeatherEntry(
     override val windDirection: String,
     override val precipitationVolume: Double,
     override val feelsLikeTemperature: Double,
-    override val visibilityDDistance: Double
+    override val visibilityDistance: Double
 ) : UnitSpecificCurrentWeatherEntry
